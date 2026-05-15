@@ -1,48 +1,52 @@
-## 🧠 Mini Interpretador de Linguagem em Python
+# 🧠 Interpretador de Linguagem Simples em Python
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Projeto-Interpretador%20de%20Linguagem-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python"/>
-  <img src="https://img.shields.io/badge/Status-Concluído-brightgreen?style=for-the-badge"/>
-</p>
+Este projeto implementa um **interpretador de linguagem simplificada**, construído em Python, com suporte a análise léxica, interpretação de código e execução de estruturas básicas como variáveis, expressões e condicionais.
 
 ---
 
-## 📌 Sobre o Projeto
+## 🚀 Visão geral
 
-Este projeto consiste na construção de um **mini interpretador de linguagem de programação**, desenvolvido em Python, com foco em:
+O sistema funciona como uma mini-linguagem própria, contendo:
 
-- Análise léxica (Lexer)
-- Parsing básico
-- Interpretação de código
-- Execução de expressões e controle de fluxo
-
-A linguagem criada suporta variáveis, operações matemáticas, operadores lógicos e estruturas condicionais.
+- 🔤 Análise léxica (Lexer com Regex)
+- 🧩 Interpretador manual (Parser + Executor)
+- 📦 Variáveis dinâmicas
+- ➕ Operações matemáticas
+- 🔁 Operadores lógicos
+- 🔀 Estruturas condicionais (`if / else`)
+- 🧱 Bloco principal (`main { }`)
 
 ---
 
-## ⚙️ Funcionalidades
+## 🧠 Como o projeto funciona
 
-✔️ Declaração de variáveis (`var`)  
-✔️ Tipos básicos (`int`, `float`, `bool`)  
-✔️ Operações matemáticas (`+ - * /`)  
-✔️ Operadores lógicos (`and`, `or`, `not`)  
-✔️ Comparações (`== != > < >= <=`)  
-✔️ Estruturas condicionais (`if / else`)  
-✔️ Blocos de código `{ }`  
-✔️ Execução sequencial de instruções  
-✔️ Modo DEBUG para análise da execução  
+### 🔤 Lexer
+O código é convertido em tokens usando expressões regulares, identificando:
 
+- Números
+- Identificadores
+- Palavras-chave (`var`, `if`, `else`, `main`)
+- Operadores (`+ - * / == != >= <=`)
+- Símbolos (`{ } ( ) ; :`)
+
+---
+
+### 🧩 Interpretador
+Após a tokenização, o interpretador:
+
+- Executa comandos sequencialmente
+- Gerencia variáveis em memória (`self.vars`)
+- Avalia expressões matemáticas e lógicas
+- Controla fluxo de execução (`if/else`, blocos)
 
 ---
 
 ## 🖼️ Ilustração 
-
-<img width="1439" height="933" alt="1000312955" src="https://github.com/user-attachments/assets/1fe7807e-4951-4cae-b972-485017b40d15" />
+<img width="1439" height="1019" alt="1000312958" src="https://github.com/user-attachments/assets/bf77ad75-1c01-46ba-82c3-91cec6df2c6b" />
 
 ---
 
-## 🧪 Exemplo de Código
+## 📌 Exemplo de código suportado
 
 ```txt
 var x:int = 10;
@@ -63,3 +67,5 @@ main {
         x = x + 1;
     }
 }
+
+
