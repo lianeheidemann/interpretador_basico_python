@@ -36,7 +36,7 @@ A linguagem criada suporta variáveis, operações matemáticas, operadores lóg
 
 ---
 
-<img width="1439" height="980" alt="1000312945" src="https://github.com/user-attachments/assets/81b5ed7b-a7f7-489d-9670-807a3f96639f" />
+<img width="1439" height="1222" alt="1000312952" src="https://github.com/user-attachments/assets/5e261cfc-e307-400c-9864-42bba43da3f2" />
 
 ---
 
