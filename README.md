@@ -33,6 +33,11 @@ A linguagem criada suporta variáveis, operações matemáticas, operadores lóg
 ✔️ Execução sequencial de instruções  
 ✔️ Modo DEBUG para análise da execução  
 
+
+---
+
+<img width="1439" height="980" alt="1000312945" src="https://github.com/user-attachments/assets/81b5ed7b-a7f7-489d-9670-807a3f96639f" />
+
 ---
 
 ## 🧪 Exemplo de Código
