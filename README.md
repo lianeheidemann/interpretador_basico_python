@@ -42,7 +42,7 @@ Após a tokenização, o interpretador:
 ---
 
 ## 🖼️ Ilustração 
-<img width="1439" height="1019" alt="1000312958" src="https://github.com/user-attachments/assets/bf77ad75-1c01-46ba-82c3-91cec6df2c6b" />
+<img width="1503" height="1047" alt="1000327405" src="https://github.com/user-attachments/assets/7845c744-dedf-44c8-a9a7-45ef8112bde8" />
 
 ---
 
