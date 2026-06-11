@@ -1,7 +1,7 @@
-# Interpretador de uma Linguagem Própria Simplificada, Implementado em Python
+# PyLite Interpreter
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
-Este projeto implementa um **interpretador de linguagem simplificada**, construído em Python, com suporte a análise léxica, interpretação de código e execução de estruturas básicas como variáveis, expressões e condicionais.
+Este projeto implementa um interpretador de uma linguagem própria simplificada, desenvolvido em Python, com suporte a análise léxica, parsing e execução de estruturas básicas como variáveis, expressões e condicionais.
 
 ---
 
