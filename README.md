@@ -21,7 +21,7 @@ O sistema funciona como uma mini-linguagem própria, contendo:
 
 ## Como o projeto funciona
 
-### 🔤 Lexer
+**🔤 Lexer**
 O código é convertido em tokens usando expressões regulares, identificando:
 ```
 - Números
@@ -32,8 +32,7 @@ O código é convertido em tokens usando expressões regulares, identificando:
 ```
 
 ---
-
-### 🧩 Interpretador
+**🧩 Interpretador**
 Após a tokenização, o interpretador:
 ```
 - Executa comandos sequencialmente
@@ -44,33 +43,6 @@ Após a tokenização, o interpretador:
 ---
 
 ## Ilustração 
-<img width="1282" height="951" alt="1000327435" src="https://github.com/user-attachments/assets/6aa5eb8b-e30b-42b7-aa31-db2599218bd1" />
-
-## Execução
-<img width="1503" height="1047" alt="1000327405" src="https://github.com/user-attachments/assets/7845c744-dedf-44c8-a9a7-45ef8112bde8" />
+<img width="1520" height="937" alt="1000327436" src="https://github.com/user-attachments/assets/39d2c662-fe9e-4fa0-8c13-8142a1fbac12" />
 
 ---
-
-## Exemplo de código suportado
-
-```txt
-var x:int = 10;
-var y:int = 5;
-var z:int = 0;
-
-main {
-    x = x + 3;
-    y = y * 2;
-
-    if x > 10 {
-        z = 1;
-    } else {
-        z = 2;
-    }
-
-    if y < 5 or z == 1 {
-        x = x + 1;
-    }
-}
-
-
