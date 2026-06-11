@@ -3,7 +3,7 @@
 
 ---
 
-## 🧠 Interpretador de Linguagem Simplificada
+## Interpretador de Linguagem Simplificada
 
 Este projeto implementa um interpretador de uma linguagem própria simplificada, desenvolvido em Python. Ele realiza análise léxica, parsing e execução de estruturas básicas como variáveis, expressões e condicionais.
 
@@ -11,7 +11,7 @@ O objetivo é demonstrar, de forma prática, conceitos fundamentais de construç
 
 ---
 
-## 📌 Visão Geral
+## Visão Geral
 
 A linguagem implementada inclui:
 
@@ -26,15 +26,8 @@ A linguagem implementada inclui:
 
 ---
 
-## ⚙️ Arquitetura
-
-Fluxo de execução:
-
-```text
-Lexer → Parser → Executor
-```
-
 ## Ilustração 
+
 <img width="1520" height="937" alt="1000327436" src="https://github.com/user-attachments/assets/39d2c662-fe9e-4fa0-8c13-8142a1fbac12" />
 
 ---
