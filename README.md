@@ -1,4 +1,4 @@
-# 🧠 Interpretador de Linguagem Simples em Python
+# Interpretador de Linguagem Simples em Python
 
 Este projeto implementa um **interpretador de linguagem simplificada**, construído em Python, com suporte a análise léxica, interpretação de código e execução de estruturas básicas como variáveis, expressões e condicionais.
 
@@ -8,13 +8,13 @@ Este projeto implementa um **interpretador de linguagem simplificada**, constru�
 
 O sistema funciona como uma mini-linguagem própria, contendo:
 
-- 🔤 Análise léxica (Lexer com Regex)
-- 🧩 Interpretador manual (Parser + Executor)
-- 📦 Variáveis dinâmicas
-- ➕ Operações matemáticas
-- 🔁 Operadores lógicos
-- 🔀 Estruturas condicionais (`if / else`)
-- 🧱 Bloco principal (`main { }`)
+- Análise léxica (Lexer com Regex)
+- Interpretador manual (Parser + Executor)
+- Variáveis dinâmicas
+- Operações matemáticas
+- Operadores lógicos
+- Estruturas condicionais (`if / else`)
+- Bloco principal (`main { }`)
 
 ---
 
